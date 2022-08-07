@@ -1,0 +1,25 @@
+<nav class="navbar is-warning has-shadow" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        &nbsp;<a class="image is-64x64" href="https://www.djangoproject.com/">
+        <img src="/static/img/django.png">
+      </a>
+  
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item  is-5" href="{% url 'home' %}">
+          Home
+        </a>
+        <a class="navbar-item  is-5" href="{% url 'movies' %}">
+         Movies
+        </a>
+      </div>
+      </div>
+    </div>
+</nav>

@@ -1,0 +1,33 @@
+{% load static %}
+
+<div class="card has-background-primary-light">
+    <div class="card-image">
+      <figure class="image is-4by1">
+        {% if movie.year != 2006 %}
+        <img src="{{ movie.poster }}" style="width:250px; height:300px;" alt="{{ movie.title }}"/>
+        {% else %} 
+        <img src="{% static 'img/'|add:movie.poster %}" style="width:250px; height:300px;" alt="{{ movie.title }}"/>
+        {% endif %}
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-96x96">
+            <img src="/static/img/django2.png" alt="">
+          </figure>
+        </div>
+        <div class="media-content">
+          <p class="title is-4">{{ movie.title }}</p>
+        </div>
+      </div>
+  
+      <div class="content title is-5">
+        <p> {{ movie.category }} </p>
+        <p> {{ movie.year }} </p>
+      </div>
+    </div>
+    <footer class="card-footer">
+        <a href="{% url 'movie_details' movie.id %}" class="card-footer-item button is-link">Details</a>
+      </footer>
+  </div>
