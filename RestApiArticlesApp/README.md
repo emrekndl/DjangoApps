@@ -12,7 +12,14 @@
 <br />
 </p>
 <br />
-<br />
+
+###### API Usage
+- /api/articles/
+* Article create-post, list-get
+- /api/articles/id/
+* A article update-put, delete-delete
+- /api/authors/
+* Author create-post, list-get
 
 ### Setup
 
@@ -52,5 +59,6 @@ python3 manage.py runserver
 
 ###### Tools
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+<br>
 [Django Rest Framework](https://www.django-rest-framework.org/)
 
