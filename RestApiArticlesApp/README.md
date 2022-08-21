@@ -22,9 +22,9 @@
 - /api/authors/
 * Author create-post, list-get
 <br/>
-**Setup**
+### **Setup**
 
-To get this repository, run the following commands inside your terminal
+- To get this repository, run the following commands inside your terminal
 
 ```bash
 svn export https://github.com/emrekndl/DjangoApps/trunk/RestApiArticlesApp
