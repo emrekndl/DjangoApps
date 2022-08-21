@@ -8,7 +8,7 @@
 <img src="images/article_detail.png" width="650" height="350" alt="">
 </td></tr>
 <tr><td colspan="2">
-<img src="images/author_list.png" width="850" height="450" alt="">
+<img src="images/author_list.png" alt="">
 </td></tr>
 </table>
 </p>
@@ -22,7 +22,7 @@
 - /api/authors/
 * Author create-post, list-get
 <br/>
-### **Setup**
+- ** Setup **
 
 - To get this repository, run the following commands inside your terminal
 
