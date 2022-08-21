@@ -8,6 +8,7 @@
 <img src="images/article_detail.png" width="650" height="350" alt="">
 </td></tr>
 </table>
+<br/>
 <img src="images/author_list.png" width="650" height="350" alt="">
 </p>
 <br />
