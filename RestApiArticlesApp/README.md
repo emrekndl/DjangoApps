@@ -5,11 +5,10 @@
 <table>
 <tr><td>
 <img src="images/article_list.png" width="650" height="350" alt=""></td><td>
-<img src="images/article_detail.png" width="650" height="350" alt=""></td></tr><tr><td>
-<img src="images/author_list.png" width="650" height="350" alt=""></td>
-</tr>
+<img src="images/article_detail.png" width="650" height="350" alt="">
+</td></tr>
 </table>
-<br />
+<img src="images/author_list.png" width="650" height="350" alt="">
 </p>
 <br />
 
@@ -20,7 +19,7 @@
 * A article update-put, delete-delete
 - /api/authors/
 * Author create-post, list-get
-
+<br/>
 ### Setup
 
 To get this repository, run the following commands inside your terminal
