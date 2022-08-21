@@ -22,7 +22,9 @@
 - /api/authors/
 * Author create-post, list-get
 <br/>
+
 ### Installing
+
 - To get this repository, run the following commands inside your terminal
 
 ```bash
