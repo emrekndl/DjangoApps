@@ -10,7 +10,7 @@
 <img src="images/Comment-Detail-Api.png" width="650" height="350" alt=""></td>
 </tr><tr>
 <td colspan="2">
-<img src="images/Comment-Create-Api.png" width="650" height="350" alt=""></td></tr>
+<img src="images/Comment-Create-Api.png" alt=""></td></tr>
 </table>
 </p>
 <br />
