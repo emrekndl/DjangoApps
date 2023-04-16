@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"aiXcoder.showTrayIcon": true,
+		"editor.suggest.snippetsPreventQuickSuggestions": false,
+		"editor.tabCompletion": "on",
+		"diffEditor.codeLens": true
+	}
+}

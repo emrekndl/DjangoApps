@@ -1,0 +1,38 @@
+{
+    "editor.tabCompletion": "on",
+    "diffEditor.codeLens": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "aiXcoder.showTrayIcon": true,
+    "python.autoComplete.extraPaths": [
+        "/home/emre/dev/django/lib/python3.10/site-packages/"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/emre/dev/django/lib/python3.10/site-packages/"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    // "python.formatting.provider": "black",
+    // "python.formatting.blackArgs": [
+    //     "--line-length",
+    //     "200"
+    // ],
+    // "python.linting.flake8Args": [
+    //     "--max-line-length=200",
+    //     "--ignore=E402,F841,F401,E302,E305"
+    // ],
+    "flake8.args": [
+        "--max-line-length=120"
+    ],
+    // "python.linting.enabled": true,
+    // // "python.analysis.typeCheckingMode": "basic",
+    "python.formatting.autopep8Args": [
+        "--max-line-length=180"
+    ],
+    "python.linting.pep8Args": [
+        "--max-line-length=180"
+    ],
+    "python.linting.pylintArgs": [
+        "--max-line-length=180"
+    ]
+}
